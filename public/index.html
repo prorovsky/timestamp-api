@@ -6,10 +6,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Timestamp API</h1>
-    
+    <div class="container">
+        <h1>Timestamp API</h1>
+        <p>
+            For that api you can provide human readable date like January 20 2020 and receive back
+            <a href="https://en.wikipedia.org/wiki/Unix_time" target="_blank">unix time.</a>
+        </p>
+        <p>
+            Or provide unix time and get back human readable date.
+        </p>
 
+        <h3>Example usage</h3>
+        <p>https://example.herokuapp.com/January-20-2020</p>
+        <p>https://example.herokuapp.com/1579467600</p>
 
+        <h3>Example output</h3>
+        <code>{ "unix": "1579467600", "natural": "January 20, 2020" }</code>
+        <h4>Or</h4>
+        <code>{ "unix": null, "natural": null }</code>
+        <p>If you provided incorrect date.</p>
 
+    </div>
 </body>
 </html>
