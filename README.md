@@ -1,4 +1,4 @@
-Timestamp app for freeCodeCamp
+# H1 Timestamp app for freeCodeCamp
 
 User stories:
 
@@ -9,9 +9,17 @@ User stories:
     3) If it does not contain a date or Unix timestamp, it returns null for those properties.
 
 Example usage:
-https://prorovsky-timestamp-api.herokuapp.com/January-20-2020
-https://prorovsky-timestamp-api.herokuapp.com/1579467600
+* https://prorovsky-timestamp-api.herokuapp.com/January-20-2020
+* https://prorovsky-timestamp-api.herokuapp.com/1579467600
+
 Example output:
-{ "unix": "1579467600", "natural": "January 20, 2020" }
+* { "unix": "1579467600", "natural": "January 20, 2020" }
+* { "unix": null, "natural": null }
 
 [you can try it here](https://prorovsky-timestamp-api.herokuapp.com)
+
+OR 
+
+1)clone/download
+2)npm install
+3)npm start
